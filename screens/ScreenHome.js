@@ -3,20 +3,9 @@ import { View, StyleSheet, Text } from 'react-native';
 
 import { Ionicons } from '@expo/vector-icons';
 
-const TabIcon = (props) => (
-    <Ionicons
-        name={'md-home'}
-        size={30}
-        color={props.focused ? '#29235C' : 'darkgrey'}
-    />
-);
+
 
 export default class ScreenHome extends React.Component {
-
-    static navigationOptions = {
-        tabBarIcon: TabIcon
-    };
-
     render() {
         return (
             <View style={styles.container}>

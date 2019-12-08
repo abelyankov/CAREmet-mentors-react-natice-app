@@ -3,15 +3,6 @@ import { View, StyleSheet, FlatList, Text, TouchableOpacity } from 'react-native
 import { Ionicons } from '@expo/vector-icons';
 import { Divider } from 'react-native-elements';
 
-const TabIcon = (props) => (
-    <Ionicons
-        name={'md-people'}
-        size={30}
-        color={props.focused ? '#29235C' : 'darkgrey'}
-    />
-);
-
-
 const MentorList = [
     {
         key: '1',
@@ -147,10 +138,6 @@ function Item({first_name, last_name, age, about}) {
 
 export default class ScreenMentors extends React.Component {
 
-    static navigationOptions = () => ({
-        tabBarIcon: TabIcon
-    });
-
     render() {
         return (
             <View style={styles.container}>
@@ -160,7 +147,16 @@ export default class ScreenMentors extends React.Component {
                         <TouchableOpacity
                             onPress={() => {
                                 this.props.navigation.navigate('MentorDetails', {
-                                    itemId: item.key
+                                    key: item.key,
+                                    first_name: item.first_name,
+                                    last_name: item.last_name,
+                                    age: item.age,
+                                    phone_number: item.phone_number,
+                                    work: item.work,
+                                    workPosition: item.workPosition,
+                                    hobby: item.hobby,
+                                    about: item.about
+
                                 });
                             }}>
                         <Item first_name={item.first_name}
