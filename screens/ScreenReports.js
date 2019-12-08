@@ -13,13 +13,15 @@ function Item({title, description, status,created_at, author, event}) {
     return (
         <View style={styles.item}>
             {label}
-            <View style={styles.header}>
-                <Text style={styles.title}>{title}</Text>
-            </View>
             <View style={styles.body}>
+                <Text style={styles.title}>{title}</Text>
                 <Text style={styles.description}> {description} </Text>
+                <Text style={styles.event}>Событие: {event} </Text>
+                <View style={styles.footer}>
+                    <Text style={styles.author}>Автор: {author};</Text>
+                    <Text style={styles.created_at}> Создан: {created_at}</Text>
+                </View>
             </View>
-            <Text style={styles.created_at}> {created_at}</Text>
         </View>
     );
 }
@@ -62,21 +64,38 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 5,
         borderTopRightRadius: 5,
         fontSize: 17,
-        backgroundColor: 'green',
-        padding: -10,
-        
+        backgroundColor: '#009A95',
     },
-
+    red_label: {
+        borderTopLeftRadius: 5,
+        borderTopRightRadius: 5,
+        fontSize: 17,
+        backgroundColor: '#C84267',
+    },
+    status: {
+        padding: 5,
+        fontSize: 15,
+        color: 'white',
+    },
+    body: {
+        padding: 5,
+    },
     title: {
         fontSize: 18
     },
     header: {
         flexDirection: 'row'
     },
-    created_at: {
-        fontSize: 14,
-        opacity: 0.3,
-        textAlign: 'right',
-        paddingRight: 10
+    footer: {
+        flex: 1,
+        flexDirection: 'row',
+        opacity: 0.4,
+        fontSize: 14
+    },
+    description: {
+      fontSize:15,
+    },
+    event: {
+        opacity: 0.4
     }
 });
