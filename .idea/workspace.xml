@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b0f8e4-454e-40b4-a595-4f5ef060d3aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lists/MentorList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lists/ReportList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/ScreenHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenHome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/ScreenMentorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenMentorDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ScreenMentors.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenMentors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/ScreenProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenProfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ScreenReports.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenReports.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
