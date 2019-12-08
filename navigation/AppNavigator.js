@@ -71,7 +71,7 @@ const Reports = createStackNavigator({
 
 const Profile = createStackNavigator({
     Main: {
-        screen: ScreenReports,
+        screen: ScreenProfile,
         navigationOptions: {
             headerTitle: "Профиль",
             headerTintColor: "#29235C"
@@ -81,7 +81,7 @@ const Profile = createStackNavigator({
 
 const Home = createStackNavigator({
     Main: {
-        screen: ScreenReports,
+        screen: ScreenHome,
         navigationOptions: {
             headerTitle: "Главная",
             headerTintColor: "#29235C"
