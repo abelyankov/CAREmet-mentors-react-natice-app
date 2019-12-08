@@ -1,16 +1,12 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
-import { Ionicons } from '@expo/vector-icons';
-
-
-
 export default class ScreenProfile extends React.Component {
 
     render() {
         return (
             <View style={styles.container}>
-                <Text>Screen Reports</Text>
+                <Text>Screen HELLO</Text>
             </View>
         );
     }

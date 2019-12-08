@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d5b0f8e4-454e-40b4-a595-4f5ef060d3aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/AppNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ScreenHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenHome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ScreenMentorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenMentorDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ScreenMentors.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ScreenMentors.js" afterDir="false" />

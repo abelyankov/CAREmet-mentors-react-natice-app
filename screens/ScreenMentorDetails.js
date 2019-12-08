@@ -1,8 +1,5 @@
 import React from 'react';
 import { View, StyleSheet, Text, Button } from 'react-native';
-import {Ionicons} from "@expo/vector-icons";
-
-
 
 export default class ScreenMentorDetails extends React.Component {
     render() {
@@ -25,7 +22,6 @@ export default class ScreenMentorDetails extends React.Component {
         );
     }
 }
-
 
 const styles = StyleSheet.create({
     container: {

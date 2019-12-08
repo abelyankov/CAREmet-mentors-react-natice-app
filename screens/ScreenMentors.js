@@ -1,7 +1,5 @@
 import React from 'react';
 import { View, StyleSheet, FlatList, Text, TouchableOpacity } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
-import { Divider } from 'react-native-elements';
 
 const MentorList = [
     {
