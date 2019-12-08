@@ -14,7 +14,12 @@ const BottomTabNavigator = createBottomTabNavigator({
   Профиль: ScreenProfile
 }, {
   tabBarOptions: {
-    showLabel: true
+    showLabel: true,
+    activeTintColor: '#29235C',
+    inactiveTintColor: '#ccc',
+    labelStyle: {
+        fontSize: 14,
+      },
   }
 });
 

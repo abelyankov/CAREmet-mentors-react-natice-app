@@ -7,7 +7,7 @@ const TabIcon = (props) => (
     <Ionicons
         name={'ios-more'}
         size={30}
-        color={props.focused ? 'blue' : 'darkgrey'}
+        color={props.focused ? '#29235C' : 'darkgrey'}
     />
 );
 
