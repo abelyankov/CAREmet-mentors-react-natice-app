@@ -20,7 +20,7 @@ const TabIconMentors = (props) => (
 
 const TabIconHome = (props) => (
     <Ionicons
-        name={'md-home'}
+        name={'md-chatboxes'}
         size={30}
         color={props.focused ? '#29235C' : 'darkgrey'}
     />
@@ -83,14 +83,14 @@ const Home = createStackNavigator({
     Main: {
         screen: ScreenHome,
         navigationOptions: {
-            headerTitle: "Главная",
+            headerTitle: "Чаты",
             headerTintColor: "#29235C"
         }
     }
 });
 export default createAppContainer(
     createBottomTabNavigator({
-        Главная: { screen: Home, navigationOptions: {
+        Чаты: { screen: Home, navigationOptions: {
                 tabBarIcon: TabIconHome
             }},
         Наставники: { screen: Mentors, navigationOptions: {
